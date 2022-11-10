@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
 .load {
   display: flex;
   width: 100%;
   height: 100px;
-  background-color: rgb(135, 48, 48);
+  background-color: rgb(162, 94, 94);
   flex-direction: column;
   align-items: center;
 }
@@ -20,6 +21,7 @@ button {
   border: 2px solid rgb(110, 34, 34);
   font-weight: bold;
   font-family: 'Century Gothic';
+  border-radius: 10px;
 }
 
 h3 {
@@ -30,8 +32,18 @@ h3 {
 }
 
 .info {
-  display: flex;
+  display: grid;
   width: 100%;
   height: 700px;
   background-color: rgb(135, 48, 48);
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.info-block {
+
+}
+
+img {
+  width: 100%;
+  height: 35%;
 }
