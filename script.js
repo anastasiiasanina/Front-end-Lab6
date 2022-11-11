@@ -7,7 +7,7 @@ const loadInfo = async () => {
   let infoBlock = ``;
 
   for(let i = 0; i < blockAmount; i++) {
-    let response = await fetch("https://randomuser.me/ap").then(res => res.json()).catch(err => alert(err));
+    let response = await fetch("https://randomuser.me/api").then(res => res.json()).catch(err => alert(err));
     let picture = response.results[0].picture.large;
     let gender = response.results[0].gender;
     let name = response.results[0].name.first + " " + response.results[0].name.last;
