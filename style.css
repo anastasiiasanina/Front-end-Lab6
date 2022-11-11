@@ -43,7 +43,8 @@ button {
 .info-block {
   border-radius: 15px;
   border: 2px solid rgb(90, 31, 31);
-  margin: 40px;
+  margin: 20px;
+  padding: 10px;
   font-family: 'Century Gothic';
   background-color: rgb(162, 94, 94);
 }
